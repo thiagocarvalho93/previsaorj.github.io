@@ -1,6 +1,7 @@
 name: Deploy SolidJS App to GitHub Pages
 permissions:
-  contents: write
+  contents: read
+  packages: write
 
 on:
   push:
